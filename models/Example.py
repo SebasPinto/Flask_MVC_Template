@@ -1,10 +1,10 @@
 import peewee
 
-DB = MySQLDatabase("bot_guarumo", 
-						host="apps.ccsmckgi9ggi.us-east-1.rds.amazonaws.com", 
+DB = MySQLDatabase("", 
+						host="", 
 						port=3306, 
-						user="dgualdron", 
-						passwd="91532004ab")
+						user="", 
+						passwd="")
 
 
 #This class represent a Table in your database, it must be with the same name, but in lower case. In this case 'example'
